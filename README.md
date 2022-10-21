@@ -11,5 +11,3 @@ c) Chimron Saikia
 d) Dorothy Phukon
 <br/>
 CARBIOS: A web app for improving waste management and reducing carbon emission in NITS.
-
-

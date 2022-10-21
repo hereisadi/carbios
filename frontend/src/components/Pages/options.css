@@ -1,0 +1,77 @@
+.options-top{
+    margin-top: 1.25rem;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Unflood.3a35ef696de6507f8982.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    min-height: 100vh;
+    height: auto;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.options-head{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.option-main{
+    width: 40%;
+    background-color: var(--color-1-100);
+    margin: 20vh auto 0 auto;
+    border-radius: 5vh;
+    text-align: center;
+    min-height: 50vh;
+    padding: 10vh 3vh;
+}
+
+.option-main h1{
+    font-size: 1.7rem;
+    margin-bottom: 10vh;
+}
+
+/* .options-link{
+    background-color: var(--color-8-100);
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 10vh;
+} */
+
+.option-link1btn{
+    background-color: var(--color-8-100);
+    cursor: pointer;
+    width: 40%;
+    border-radius: 10vh;
+    padding: 2vh 0;
+    font-size: 1rem;
+    color: antiquewhite;
+    transition:all 0.3s cubic-bezier(0.27, 0.49, 0.62, 1.47);
+}
+
+.option-link1btn:hover{
+    /* background-color: var(--color-1-100); */
+    color: white;
+    transform: scale(1.1);
+    
+}
+
+@media only screen and (max-width:660px){
+    .options-head{
+        flex-direction: column;
+    }
+
+    .option-main{
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .option-link1btn{
+        width: 70%;
+    }
+
+}

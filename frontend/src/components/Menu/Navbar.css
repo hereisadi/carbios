@@ -14,7 +14,7 @@
 }
 
 .container-bg{
-  background-color: #45363c;
+  background-color: var(--color-15-100);
   transition:  0.25s;
 }
 

@@ -45,7 +45,7 @@ const Navbarmenu = () => {
             <NavLink exact activeClassName="is-active" to="/">
               <img
                 className="img-left"
-                src="./img/carbios logo.jpeg"
+                src="./img/dark logo.jpeg"
                 alt="Carbios-logo"
               />
             </NavLink>
@@ -127,6 +127,16 @@ const Navbarmenu = () => {
                   >
                     {" "}
                     About Us{" "}
+                  </NavLink>{" "}
+                </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`/options`}
+                  >
+                    {" "}
+                    Login{" "}
                   </NavLink>{" "}
                 </li>
               </ul>

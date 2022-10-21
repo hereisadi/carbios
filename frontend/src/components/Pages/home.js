@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./home.css";
 import Typed from 'react-typed';
 import Reveal from 'react-reveal/Reveal';
 import Bounce from 'react-reveal/Bounce';
-
-const home = () => {
+import Jump from 'react-reveal/Jump';
+import {Link} from 'react-router-dom'
+const Home = () => {
+  useEffect(() => {
+    document.title = "CARBIOS";
+  }, []);
   return (
     <>
     <Reveal>
@@ -25,10 +29,30 @@ const home = () => {
           </Bounce>
         </div>
       </div>
+
+    
+      <Jump>
+      <div className="hometop-apply">
+        <div className="hometop-reg">
+          <ul style={{ color: "white" }}>
+            <strong>
+             User and Admin Login
+            </strong>{" "}
+          </ul>
+        </div>
+        <div className="hometop-link1">
+          <Link to={"/options"}>
+            <button className="hometop-link1btn">Let's Proceed!</button>
+          </Link>
+        </div>
+      </div>
+      </Jump>
+      
+
     </Reveal>
       
     </>
   );
 };
 
-export default home;
+export default Home;

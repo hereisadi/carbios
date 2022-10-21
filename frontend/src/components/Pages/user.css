@@ -1,0 +1,131 @@
+.user-top{
+    margin-top: 1.25rem;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url("zero-carbon-websites.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    min-height: 100vh;
+    height: auto;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.user-top h1{
+    margin: 7vh 0 4vh 0;
+    font-weight: 900;
+    font-size: 4.5rem;
+    font-family: var(--font5);
+    text-align: center;
+    color: var(--color-1-100);
+}
+
+
+#login-services {
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#login-services .box {
+    border: 2px solid var(--color-1-100);
+    margin: 25px 25px;
+    padding: 35px;
+    border-radius: 25px;
+    background-color: var(--color-1-100);
+}
+
+
+
+#login-services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+    border-radius: 5vh ;
+    margin-bottom: 4vh;
+    pointer-events: none;
+}
+
+#login-services .box p {
+    font-family: var(--font2);
+    font-weight: 900;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#contact-box form {
+    width: 80%;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: var(--font2);
+    font-weight: 900;
+}
+
+.form-group{
+    margin-bottom: 2vh;
+}
+.form-group input,
+.form-group textarea {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+.h-primary centre{
+    font-size: 3.5rem;
+    font-family: var(--font2);
+    padding: 12px;
+    font-family: 900;
+}
+
+.h-secondary {
+    font-size: 2.0rem;
+    padding: 12px;
+    font-family: var(--font2);
+font-weight: 900;
+}
+.centre {
+    text-align: center;
+}
+.btn {
+    margin: 20px;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: slategrey;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+}
+.btn:hover {
+    background-color: beige;
+    color: black;
+}
+
+.signup{
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width:660px){
+    .user-top h1{
+        font-size: 2rem;
+    }
+}

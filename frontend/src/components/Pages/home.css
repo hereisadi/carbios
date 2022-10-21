@@ -26,6 +26,12 @@
   text-align-last: left;
 }
 
+.typewriter{
+  font-size: 3.5rem;
+  font-family: var(--font1);
+  font-weight: 900;
+}
+
 @media only screen and (max-width:660px){
   .home-text{
     top: 35%;
@@ -35,11 +41,79 @@
   }
 }
 
-@media only screen and (max-width:380px){
-  .home-text{
-    top: 35%;
-    left: 10%;
-    right: 10%;
+.hometop-apply{
+  width: 100%;
+  padding: 1em 1em;
+  background-color: var(--color-1-100);
+  font-size: 2em;
+}
+
+.hometop-reg{
+  font-variant: small-caps;
+  padding-bottom: 1.875rem;
+  text-align: center;
+} 
+
+.hometop-link1{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hometop-link1btn{
+  width: 50%;
+  padding: 1rem 2rem;
+ font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  font-size: 1.25rem;
+  background-color: var(--color-4-100);
+  color: white;
+  
+}
+
+.hometop-link1btn:hover{
+  color: var(--color-1-100);
+    font-weight: 900;
+    background-color: var(--color-6-100);
+
+}
+
+.hometop-link1btn:active
+          {
+              box-shadow: 1px 1px 1px 1px #e2564f;
+              transform: translateY(2px);
+          } 
+
+.hometop-link1btn:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px #e2564f;
+            transition: 0.5s;
+          }
+
+
+
+@media only screen and (max-width:565px){
+  .hometop-apply{
+    padding: 1em 1em;
+    margin-bottom: 0;
+}
+.hometop-link1btn{
+  font-size: 0.4em;
+  padding: 0.3125rem 0.625rem;
+}
+}
+
+
+@media only screen and (max-width:660px){
+  .typewriter{
+    font-size: 1.5rem;
+  }
+
+  .hometop-reg{
+    font-size: 1.3rem;
   }
 }
 
@@ -50,15 +124,10 @@
    right: 10%;
   }
 }
-
-.typewriter{
-  font-size: 3.5rem;
-  font-family: var(--font1);
-  font-weight: 900;
-}
-
-@media only screen and (max-width:660px){
-  .typewriter{
-    font-size: 1.5rem;
+@media only screen and (max-width:380px){
+  .home-text{
+    top: 35%;
+    left: 10%;
+    right: 10%;
   }
 }

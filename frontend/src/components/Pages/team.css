@@ -1,3 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .team-top{
-    padding-top: 10vh;
+    margin-top: 1.25rem;
+    padding-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/photos/concept-depicting-the-issue-of-carbon-dioxide-emissions-and-its-on-picture-id1340519929?k=20&m=1340519929&s=612x612&w=0&h=2-d7NMT-cqO6gjR52x0Gw06TLS6cavR_3itjfp0n7rM=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    min-height: 100vh;
+    height: auto;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.team-img5{
+    width: 10.625rem;
+    height: 10.625rem;
+    border-radius: 1.875rem;
+    opacity: 0.85;
+    padding: 1.25rem;
+    overflow: hidden;
+    pointer-events: none;
+    aspect-ratio: 1/1;
+}
+
+.team-stats-card5{
+    display: flex;
+    width: 97.5%;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.25rem 3.125rem 1.875rem 3.125rem;
+}
+
+.team-stats5{
+    background-color: var(--color-1-100);
+    margin: 1.25rem;
+    transition: all 0.4s cubic-bezier(0.27, 0.49, 0.62, 1.47);
+    box-shadow: 0 0 0.9375rem;
+  border-radius: 0.925rem;
+    width: 19.5%;
+    position: relative;
+}
+
+.team-stats5:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 4px 8px 0 #000000, 0 6px 10px 0 var(--color-1-100);
+}
+
+.team-stats5:hover .team-img5{
+    opacity: 1;
+}
+
+.team-stats5 h1{
+    padding: 1.0625rem 0.625rem;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.team-stats5 h2{
+    color: white;
+    font-size: 1.0rem;
+    text-align: center;
+    padding:0.3125rem 1.25rem 0.9375rem 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 992px){
+    .team-top{
+        padding-top: 6rem;
+    }
+
+    .team-head5{
+        margin:7vh auto 2vh auto;
+        width: 95%;
+        }
+
+        .team-head5 h1{
+            font-size: 6vw;
+            font-weight: 600;
+        }
+
+    .team-stats-card5{
+        padding: 1vw 0;
+    }
+
+    .team-stats5{
+    width: 43%;
+    margin: 2vw;
+    padding: 2.5vw 2vw;
+    }
+
+    .team-img5{
+    height: auto;
+    max-width: 17.5rem;
+    aspect-ratio: 1/1;
+    padding: 0.625rem;
+    overflow: hidden;
+    }
+
+    .team-stats5 h1{
+    font-size: 3.5vw;
+    padding: 0.625rem 0.625rem;
+    letter-spacing: 0.3px;
+    }
+
+    .team-stats5 h2{
+        font-size: 2.2vw;
+        letter-spacing: 0.4px;
+        padding: 0.125rem 0.625rem 0.9375rem 0.625rem;
+    }
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-icon2, .btn-icon3, .btn-icon1, .btn-icon4{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    margin: 0.1875rem 0.4375rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 2.0625rem;
+    height: 2.0625rem;
+}
+
+@media screen and (max-width:676px){
+    .btn-icon2, .btn-icon3, .btn-icon1, .btn-icon4{
+        margin: 0.25rem;
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+}
+
+
+.btn-icon1:hover{
+    background-color: #ffffff;
+}
+
+.btn-icon2:hover{
+    background-color: #0072b1;
+}
+
+.btn-icon3:hover{
+    background-color:#4267B2;
+}
+
+.btn-icon4:hover{
+    background-color: #000000;
+}
+
+
+.icon-color, .icon-color1, .icon-color2, .icon-color3 {
+    color: var(--color-15-100);
+    font-weight: 900;
+    padding: 0.125rem !important;
+}
+
+/*Important */
+.btn-icon1:hover .icon-color{
+    color: rgb(251, 62, 62);
+    font-weight: 900;
+    transition: 0.15s ease-in-out;
+}
+
+.btn-icon2:hover .icon-color1{
+    color: white !important;
+    transition: 0.15s ease-in-out;
+}
+
+.btn-icon3:hover .icon-color2{
+    color: white !important;
+    transition: 0.15s ease-in-out;
+}
+
+.btn-icon4:hover .icon-color3{
+    color: white !important;
+    transition: 0.15s ease-in-out;
+}
+
+@media only screen and (max-width:320px){
+    .team-img5{
+        height: 6.5rem !important;
+        width: 6.5rem !important;
+    }
+ }
+
+ @media only screen and (max-width:660px){
+    .team-img5{
+        height: 7.5rem;
+         width: 7.5rem;
+    }
 }

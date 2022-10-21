@@ -1,0 +1,64 @@
+.home-top{
+  position: relative;
+  margin-top: 1.25rem;
+  padding-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url('zero-carbon-websites.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(245, 89, 89);
+  padding-bottom: 0;
+  height: 100vh;
+  background-attachment: fixed;
+  opacity:1;
+}
+
+.home-text{
+  top: 40%;
+  left: 10%;
+  right: 8%;
+  position: absolute;
+  z-index: 10000;
+  line-height: 1.6;
+  text-align: justify;
+  text-align-last: left;
+}
+
+@media only screen and (max-width:660px){
+  .home-text{
+    top: 35%;
+    left: 10%;
+    right: 10%;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (max-width:380px){
+  .home-text{
+    top: 35%;
+    left: 10%;
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .home-text-rec{
+   top: 35%;
+   left: 10%;
+   right: 10%;
+  }
+}
+
+.typewriter{
+  font-size: 3.5rem;
+  font-family: var(--font1);
+  font-weight: 900;
+}
+
+@media only screen and (max-width:660px){
+  .typewriter{
+    font-size: 1.5rem;
+  }
+}

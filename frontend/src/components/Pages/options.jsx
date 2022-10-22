@@ -17,7 +17,6 @@ const Options = () => {
                                     <Link to={item.route}>
                                         <button className="option-link1btn">{item.btn}</button>
                                     </Link>
-                                
                             </div>
                         </>
                     )

@@ -4,15 +4,16 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div>
       <div className="footer-main">
         <div className='footer-logo'>
-          <img className='footer-img' src="./img/dark logo.jpeg" alt="Logo" />
-           <ul>CARBIOS</ul>
+       <Link to="/"><img className='footer-img' src="./img/dark logo.jpeg" alt="Logo" /></Link>
+       <Link to="/"><ul className='name-foot'>CARBIOS.</ul></Link>
+       
         </div>
         <div className='footer-btns'>
         <button className="footer-btn-a"><a
@@ -50,12 +51,11 @@ const Footer = () => {
         </button>
         </div>
         <div>
-          Contact us
-          
+          <Link to="/contact" className='contact-footer'>Contact Us</Link>
+          <p className='copyright-foot'>Copyright © Carbios. 2022</p>
         </div>
       </div>
     </div>
   )
 }
-
-export default Footer
+export default Footer;

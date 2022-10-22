@@ -1,5 +1,76 @@
 .about-top{
-    padding-top: 20vh;
-   text-align: center;
+    margin-top: 1.25rem;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url("zero-carbon-websites.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    min-height: 100vh;
+    height: auto;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.about-main{
+    position: absolute;
+    top: 40%;
+    padding-left: 7rem;
     font-weight: 900;
+}
+
+.about-main h1{
+    font-family: var(--font5);
+    margin-top: 0rem;
+}
+
+.about-content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #9ada1ba2;
+    padding: 5vh 0;
+}
+
+.aboutd{
+    width: 24%;
+    background-color: #28a0a6;
+    border-radius: 3vh;
+    padding: 3vh 1vh;
+    height: auto;
+}
+
+.aboutd h1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: var(--font5);
+    text-align: center;
+}
+
+.aboutd p{
+    font-weight: 900;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width:660px){
+    .about-main{
+        padding-left: 1rem;
+    }
+
+    .about-main h1{
+        font-size: 1.2rem;
+        margin-top: 0rem;
+    }
+
+    .about-content{
+        flex-direction: column;
+    }
+
+    .aboutd{
+        width: 90%;
+        margin: 1rem auto;
+    }
 }

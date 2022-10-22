@@ -33,6 +33,8 @@
 .option-main h1{
     font-size: 1.7rem;
     margin-bottom: 10vh;
+    font-family: var(--font2);
+    color: #161c2f;
 }
 
 /* .options-link{
@@ -68,6 +70,10 @@
     .option-main{
         width: 90%;
         margin: 1rem auto;
+    }
+
+    .option-main h1{
+        font-size: 1.5rem;
     }
 
     .option-link1btn{

@@ -39,7 +39,7 @@ export const team = [
 export const optio = [
     {
         id:'user',
-        first:"Do you want to submit Garbage?",
+        first:"Worried of your daily garbage piling together?",
         btn:"User click here!",
         Title:"User Login | CORBIOS",
         route:"/option/user/login"
@@ -53,3 +53,25 @@ export const optio = [
     },
 ];
 
+export const aboutc = [
+    {
+        id:1,
+        title:'Waste Management',
+        content:"We jump right in with the motive of managing waste in an efficient and advanced way.",
+    },
+    {
+        id:2,
+        title:"Time Tracking",
+        content:"Real time tracking of garbage from its disposal to collection.",
+    },
+    {
+        id:3,
+        title:"User friendly",
+        content:"Lets the user log in and submit the garbage type, weight, location etc",
+    },
+    {
+        id:4,
+        title:"Swachh Coins",
+        content:"We provide swachh coins to users based on their garbage dispatch that can be later redeemed as gift coupons.",
+    },
+];

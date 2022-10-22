@@ -80,9 +80,41 @@
     justify-content: space-around;
     align-items: center;
     background-color: black;
+    min-height: 20vh;
 
 }
 .footer-btns{
     display: flex;
     
+}
+
+.contact-footer, .name-foot{
+    color: whitesmoke;
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
+
+.contact-footer:hover, .name-foot:hover{
+    color: var(--color-1-100);
+    transition: all 0.3s ease-in;
+}
+
+.copyright-foot{
+    color: whitesmoke;
+   font-weight: 400;
+    font-size: 0.8rem;
+    margin: 1vh 0;
+}
+
+@media only screen and (max-width:660px){
+    .name-foot{
+        display: none;
+    }
+    .contact-footer{
+        font-size: 0.9rem;
+    }
+
+    .copyright-foot{
+        font-size: .41rem;
+    }
 }

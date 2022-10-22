@@ -113,20 +113,20 @@ const Navbarmenu = () => {
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`/blogs`}
+                    to={`/about`}
                   >
                     {" "}
-                    Blogs{" "}
+                    About Us{" "}
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`/about`}
+                    to={`/contact`}
                   >
                     {" "}
-                    About Us{" "}
+                    Contact Us{" "}
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item ">

@@ -11,7 +11,7 @@ const admin = React.lazy(() => import("./components/Pages/admin"));
 const usersignup = React.lazy(() => import("./components/Pages/usersignup"));
 const Navbarmenu = React.lazy(() => import("./components/Menu/Navbarmenu"));
 const NotFound = React.lazy(() => import("./components/Pages/NotFound"));
-const blogs = React.lazy(() => import("./components/Pages/blogs"));
+const contact = React.lazy(() => import("./components/Pages/contact"));
 const Footer = React.lazy(() => import("./components/Footer"));
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             <Route path="/about" component={about} />
             <Route path="/mission" component={mission} />
             <Route path="/team" component={team} />
-            <Route path="/blogs" component={blogs} />
+            <Route path="/contact" component={contact} />
             <Route path="/options" component={options} />
             <Route path="/option/user/login" component={user} />
             <Route path="/option/admin" component={admin} />

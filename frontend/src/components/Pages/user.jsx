@@ -1,11 +1,23 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import Flash from 'react-reveal/Flash';
+import { useHistory } from "react-router-dom";
 import './user.css'
 const User = () => {
     useEffect(() => {
         document.title = "User Login || CARBIOS";
     }, []);
+
+    const history = useHistory();
+    const [formData, setFormData] = useState({
+      email: '',
+      password: '',
+      name:'',
+      weight:"",
+      location:""
+    });
+
+    
     return (
         <div className='user-top'>
             <h1>Welcome User!</h1>
@@ -44,7 +56,7 @@ const User = () => {
                                             <option value="Non Biodegradable">Non Biodegradable</option>
                                         </select>
                                     </div>
-                                    <button class="btn">Login</button>
+                                    <button class="btn">Submit</button>
                                     <br/><br/>
                                     <h2 className='signup'>New to Carbios? <Link to={'/option/user/signup'}>SignUp</Link></h2><br/>
                                     <h2 className='signup'>Move back? <Link to={'/options'}>Options</Link></h2>

@@ -10,14 +10,12 @@ const Mission = () => {
       <div className="mission-top">
         <div className="mission-main">
           <h1>THE PRIME VISION</h1>
-          <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-          <h2>Where the value of life is more than that of gold”</h2>
-          <h2>Dr. xyz</h2> 
-
-          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, a.</h4>
+          <h2>With the motive of efficiently managing waste, our mission is to create a sustainable and litter free campus with timely tracking of waste disposal and it's collection.</h2>
+          <h2>“I will not let anyone walk through my mind with their dirty feet.”</h2>
+          <h2>Mahatma Gandhi</h2> 
           <ul className="data-content">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quia veritatis!</li>
-            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+           <p>i) We will also provide a section where people could put in reports of unauthorised loitering of campus areas and the info submitted will go directly to the administration so that corrective measures can be taking.</p>
+           <p>ii) We believe, we can make control carbon emissions, slowly but definitely. And this can only be done if we start putting our foots together</p>
             <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo.</li>
           </ul>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi unde officia!</p>

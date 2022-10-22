@@ -45,6 +45,7 @@
 .hometop-apply{
   width: 100%;
   padding: 1em 1em;
+  text-align: center;
   background-color: var(--color-1-100);
   font-size: 2em;
 }
@@ -102,7 +103,7 @@
     margin-bottom: 0;
 }
 .hometop-link1btn{
-  font-size: 0.4em;
+  font-size: 0.6rem;
   padding: 0.3125rem 0.625rem;
 }
 }

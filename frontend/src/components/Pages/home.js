@@ -21,6 +21,7 @@ const Home = () => {
               "An Advanced Waste Management System!", //more relevant text can be added
               "For The NITS by the NITS!",
               "Zero Carbon Emission!",
+              "This is CARBIOS!",
             ]}
             typeSpeed={90}
             backSpeed={20}

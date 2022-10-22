@@ -1,4 +1,4 @@
-import { FaFacebookF } from "react-icons/fa";
+
 import { ImGithub } from "react-icons/im";
 export const team = [
     {
